@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  <title>Menu Minuman Segar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Kedai MinumanSegar</h1>
+    <p>Pilih minuman favoritmu hari ini!</p>
+  </header>
+  
+  <main class="container">
+    <div class="menu-grid" id="menuGrid">
+      <!-- Card menu akan di-generate via JavaScript -->
+    </div>
+</main>
+
+<!-- Modal Detail Order -->
+<div class="modal" id="orderModal">
+  <div class="modal=content">
+    <span class="close-btn" id="closeBtn">&times;</span>
+    <h2 id="modalTitle">Detail Pesanan</h2>
+    <p id="modalDescription"></p>
+    <p class="modal-price" id="modalPrice"></p>
+    <button class="btn-confrim" onclick="konfirmasiPesanan()">Konfirmasi Pesanan</button>
+  </div>
+ </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
