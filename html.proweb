@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, inital-scale=1.0">
   <title>Menu Minuman Segar</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ku.css">
 </head>
 <body>
 
@@ -33,20 +33,3 @@
  <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
